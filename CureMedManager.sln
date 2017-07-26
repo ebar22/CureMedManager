@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7FE14D61-CCEA-4487-BB82-10388E80A409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{F51E29FE-12D6-4E78-99A8-F50A175F0462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{3E061F95-C2B9-4D82-B899-B2B3C00953C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.Client.Facade", "CureMedManager.Client.Facade\CureMedManager.Client.Facade.csproj", "{F58895B3-0D75-4D71-AA72-96EFD2E9A832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.MainService.ServiceFacade", "CureMedManager.MainService.ServiceFacade\CureMedManager.MainService.ServiceFacade.csproj", "{C381F973-9F5A-47DA-BD2C-F3A0B56EC513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.MainService.Hosting.ServiceHost", "CureMedManager.MainService.Hosting.ServiceHost\CureMedManager.MainService.Hosting.ServiceHost.csproj", "{56D7040A-8CFA-4556-A717-502E35416A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.MainService.Hosting.Console", "CureMedManager.MainService.Hosting.Console\CureMedManager.MainService.Hosting.Console.csproj", "{1E41A074-F2C8-4713-A3BF-4AC9F70ACC43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{BBBB01A6-FC7F-44FD-8AAB-BED332C58715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.Modules.Scheduler.Ui", "CureMedManager.Modules.Scheduler.Ui\CureMedManager.Modules.Scheduler.Ui.csproj", "{848227FE-04F7-48C9-9CA8-E6D6F8139581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1CA18055-CB63-4DB2-8305-78B15164D3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.Main.Ui", "CureMedManager.Main.Ui\CureMedManager.Main.Ui.csproj", "{8F307434-22AF-4884-BD14-5D1C8C3778D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CureMedManager.Common.Ui", "CureMedManager.Common.Ui\CureMedManager.Common.Ui.csproj", "{858419C1-1EB3-4384-9752-280DC264D386}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{274F10E8-99E6-4B58-BE95-63B393C2516A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F58895B3-0D75-4D71-AA72-96EFD2E9A832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58895B3-0D75-4D71-AA72-96EFD2E9A832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58895B3-0D75-4D71-AA72-96EFD2E9A832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58895B3-0D75-4D71-AA72-96EFD2E9A832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C381F973-9F5A-47DA-BD2C-F3A0B56EC513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C381F973-9F5A-47DA-BD2C-F3A0B56EC513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C381F973-9F5A-47DA-BD2C-F3A0B56EC513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C381F973-9F5A-47DA-BD2C-F3A0B56EC513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D7040A-8CFA-4556-A717-502E35416A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D7040A-8CFA-4556-A717-502E35416A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D7040A-8CFA-4556-A717-502E35416A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D7040A-8CFA-4556-A717-502E35416A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E41A074-F2C8-4713-A3BF-4AC9F70ACC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E41A074-F2C8-4713-A3BF-4AC9F70ACC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E41A074-F2C8-4713-A3BF-4AC9F70ACC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E41A074-F2C8-4713-A3BF-4AC9F70ACC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848227FE-04F7-48C9-9CA8-E6D6F8139581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848227FE-04F7-48C9-9CA8-E6D6F8139581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848227FE-04F7-48C9-9CA8-E6D6F8139581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848227FE-04F7-48C9-9CA8-E6D6F8139581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F307434-22AF-4884-BD14-5D1C8C3778D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F307434-22AF-4884-BD14-5D1C8C3778D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F307434-22AF-4884-BD14-5D1C8C3778D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F307434-22AF-4884-BD14-5D1C8C3778D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858419C1-1EB3-4384-9752-280DC264D386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858419C1-1EB3-4384-9752-280DC264D386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858419C1-1EB3-4384-9752-280DC264D386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858419C1-1EB3-4384-9752-280DC264D386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F58895B3-0D75-4D71-AA72-96EFD2E9A832} = {F51E29FE-12D6-4E78-99A8-F50A175F0462}
+		{C381F973-9F5A-47DA-BD2C-F3A0B56EC513} = {3E061F95-C2B9-4D82-B899-B2B3C00953C2}
+		{56D7040A-8CFA-4556-A717-502E35416A9C} = {3E061F95-C2B9-4D82-B899-B2B3C00953C2}
+		{1E41A074-F2C8-4713-A3BF-4AC9F70ACC43} = {3E061F95-C2B9-4D82-B899-B2B3C00953C2}
+		{BBBB01A6-FC7F-44FD-8AAB-BED332C58715} = {7FE14D61-CCEA-4487-BB82-10388E80A409}
+		{848227FE-04F7-48C9-9CA8-E6D6F8139581} = {BBBB01A6-FC7F-44FD-8AAB-BED332C58715}
+		{1CA18055-CB63-4DB2-8305-78B15164D3B7} = {7FE14D61-CCEA-4487-BB82-10388E80A409}
+		{8F307434-22AF-4884-BD14-5D1C8C3778D8} = {BBBB01A6-FC7F-44FD-8AAB-BED332C58715}
+		{858419C1-1EB3-4384-9752-280DC264D386} = {1CA18055-CB63-4DB2-8305-78B15164D3B7}
+	EndGlobalSection
+EndGlobal
